@@ -1,0 +1,30 @@
+html, body, * {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.viewport {
+  display: block;
+  width: 100%;
+}
+
+.topic {
+  background-color: white;
+  display: block;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 80vh;
+}
+
+.topic:not(.active) {
+  display: none;
+}
+
+.topic.active {
+}
