@@ -2,7 +2,7 @@
 
 Hypertext version of our ideology at [arcus(x)](https://www.arcusx.com).
 
-/Still in German only./
+*Still in German only.*
 
 ### Usage
 
