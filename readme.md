@@ -1,5 +1,5 @@
-* Das arcus(x)-Manifest
+# Das arcus(x)-Manifest
 
-* License
+### License
 
 [GPL-3.0](license.txt)
