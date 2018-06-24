@@ -1,0 +1,12 @@
+.App {
+  display: block;
+  width: 100%;;
+}
+
+.App_contentFrame {
+  padding: 10px;
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -2,131 +2,16 @@
 <html lang="de">
 <head>
   <title>Das arcus(x)-Manifest</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"/>
-  <link type="text/css" rel="stylesheet" href="./style.css"/>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
   <meta name="description" content="arcus(x)-Manifest"/>
+<!--
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"/>
+-->
 </head>
 <body>
-<div class="viewport">
-  <section class="topic" id="philosophy">
-    <h1>Das arcus(x)-Manifest</h1>
-    <p>Dies ist unsere Philosophie bei arcus(x).</p>
-    <p>Wir glauben an:</p>
-    <ul>
-      <li><a href="#user-story">User-Stories</a></li>
-      <li><a href="#continous-delivery">Continous Delivery</a></li>
-      <li><a href="#pairing">Pairing</a></li>
-      <li><a>Selbstverantwortliche Arbeit</a></li>
-      <li><a>ständige Verbesserung</a></li>
-      <li><a href="#fourty-hour-week">die 40-Stunden-Woche</a></li>
-    </ul>
-    <p>Wie gehen wir um mit:</p>
-    <ul>
-      <li>Bedarf an weitreichender Planung</li>
-      <li><a href="#deadline">Deadlines</a></li>
-      <li><a>Dokumentation</a></li>
-    </ul>
-  </section>
-
-  <section class="topic" id="continous-delivery">
-    <h1>Continous Delivery</h1>
-    <p>Wir liefern früh und so oft wie möglich aus, weil</p>
-    <ul>
-      <li>der Geschäftswert nur durch die Produktivnahme geschöpft wird,</li>
-      <li>wir dadurch transparent ggü. unseren Kunden werden,</li>
-      <li>wir so wertvolles User- und System-Feedback frühzeitig erhalten,</li>
-      <li>wir früh die mentale Last loswerden, uns zu merken, was sich eigentlich noch nicht in Produktion befindet.
-      </li>
-    </ul>
-  </section>
-
-  <section class="topic" id="pairing">
-    <h1>Pairing</h1>
-    <p>Wir arbeiten weitgehends im Pair, weil das folgende Vorteile hat:</p>
-    <ul>
-      <li>Wenn jemand mal ausfällt, kann der andere mit einem Dritten am Thema weiterarbeiten. ("Bus-Faktor")</li>
-      <li>Die Wahrscheinlichkeit, dass man sich irgendwo "festfrisst", sinkt.</li>
-      <li>Die Effizienz steigt, weil einer den Überblick behalten kann, während der andere gerade in den Details
-        steckt.
-      </li>
-      <li>Durch die Entwicklung im Pair, fällt das Code-Review weg.</li>
-      <li>Im Gegensatz zum Review werden Fehler und Optimierungen zeitnah erkannt und gleich korrigiert.</li>
-    </ul>
-  </section>
-
-  <section class="topic" id="deadline">
-    <h1>Deadline</h1>
-    <p>Wir lieben Herausforderungen.</p>
-    <p>Aber die bedingungslose Arbeit auf eine Deadline hin, laugt das Team aus. Darum müssen gewichtige
-      Gründe vorliegen, um eine Deadline zu etablieren.</p>
-    <p>Wir arbeiten immer so effizient wir möglich. Eine Deadline ändert nichts daran.</p>
-    <p>Manchmal sind Deadlines nicht fundiert, sondern Ergebnis eines mehr oder minder willkürlichen
-      Plans oder basierenden auf nicht gewichtigen Zwängen (Person x will aber in den Urlaub).
-      Solche Deadlines zerstören das Vertrauen des Teams.</p>
-    <p>Mögliche Gründe für eine Deadline sind entgangende Geschäftsmöglichkeiten oder drohender Schaden.</p>
-    <p>Auf eine Deadline folgt direkt eine Regenerationszeit.</p>
-    <p>Umgang mit Deadlines:</p>
-    <ul>
-      <li>Verkleinerung des Scopes</li>
-      <li>Hinterfragen der Beweggründe</li>
-      <li>Annahme der Deadline nach Absprache mit dem Team</li>
-    </ul>
-    <a href="#fourty-hour-week">40-Stunden-Woche</a>
-    <a href="#pressure">Druck</a>
-  </section>
-  <section class="topic" id="fourty-hour-week">
-    <h1>40-Stunden-Woche</h1>
-    <p>Wir glauben an die 40-Stunden-Woche.</p>
-    <a href="#deadline">Deadline</a>
-  </section>
-  <section class="topic" id="pressure">
-    <h1>Druck</h1>
-    <p>Softwareentwicklung ist Kopfarbeit. Wenn der Druck steigt, denkt man nicht schneller und die Fähigkeit
-      Problemstellungen ganzheitlich zu verstehen wird eingeschränkt. Die Produktivität sinkt.</p>
-    <p>Möglichkeiten:</p>
-    <ul>
-      <li>Scope reduzieren</li>
-      <li>Mit aktuellem Kenntnisstand neu planen</li>
-    </ul>
-    <a href="#deadline">Deadline</a>
-  </section>
-
-  <section class="topic" id="user-story">
-    <h1>User-Stories</h1>
-    <p>User-Stories beschreiben Eigenschaften, die eine Software besitzen soll. Deren
-      Herstellung ist Gegenstand der Entwicklung.</p>
-    <p>Eigenschaften von User-Stories:</p>
-    <ul>
-      <li>erzeugt Geschäftswert oder ist ein Teilschritt dahin</li>
-      <li>ist in sich geschlossen umsetzbar</li>
-      <li>User-Stories sind kurz, Umsetzungszeit < 5 Tage</li>
-      <li>besitzt eine <a href="#definition-of-done">Definition of Done</a></li>
-      <li>beantwortet neben Was auf Wer und Warum, um hinterfragt werden zu können</li>
-    </ul>
-    <p>User-Stories können nicht mehr verändert werden, wenn die Umsetzung einmal begonnen wurde, damit wir in der
-      Entwicklung nicht vor einem Moving-Target stehen.</p>
-    <p>Aber alles was noch nicht begonnen wurde, kann beliebig verändert oder umpriorisiert werden. Das stellt sicher,
-      dass wir immer an den für unsere Kunden dringensten Themen arbeiten können.</p>
-    <p>Stellt sich während der Story heraus, dass etwas anders als geplant, unklar oder widersprüchlich ist, ist es
-      unsere Aufgabe die Story bestmöglich anzupassen und umzusetzen - oder im Zweifel abzubrechen.</p>
-  </section>
-
-  <section class="topic" id="definition-of-done">
-    <h1>Definition of Done</h1>
-    <p>Liste an Kritierien zur Überprüfung, ob eine User-Storie als erledigt angesehen
-      werden kann.</p>
-    <ul>
-      <li>vollständig</li>
-      <li>objektiv überprüfbar</li>
-      <li>fachliches in der Sprache der User</li>
-      <li>technisches in der Sprache der Entwickler</li>
-    </ul>
-  </section>
-</div>
+<div id="root"></div>
+<script src="bundle.js"></script>
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="./code.js"></script>
 </html>
